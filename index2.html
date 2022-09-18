@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoppingCart Demo</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="products">
+      <div class="product">
+        <h2>Tomato</h2>
+        <p>cost 3 sekel per kg</p>
+        <img src="/tomato.jfif" />
+        <button onclick="show(0)">Add To Cart</button>
+        <!--  מספר אני מכוון את הפונקציה לנקודה מדוייקת במערך "show(0) "עקב רשימת  -->
+      </div>
+
+      <div class="product">
+        <h2>cucumber</h2>
+        <p>cost 5 sekel per kg</p>
+        <img src="/cucumber.jpeg" />
+        <button onclick="show(1)">Add To Cart</button>
+      </div>
+
+      <div class="product">
+        <h2>Pinapple</h2>
+        <p>cost 30 sekel per kg</p>
+        <img src="/pinapple.jpg" />
+        <button onclick="show(2)">Add To Cart</button>
+      </div>
+
+      <div class="product">
+        <h2>Grapes</h2>
+        <p>cost 10 sekel per kg</p>
+        <img src="/grapes.jpg" />
+        <button onclick="show(3)">Add To Cart</button>
+      </div>
+    </div>
+    <div class="shoppingCart" id="shoppingCart">shoppingCart</div>
+
+    <script src="./script2.js"></script>
+  </body>
+</html>
